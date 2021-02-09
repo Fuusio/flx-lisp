@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_reset_vm"
+        android:icon="@drawable/ic_replay_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/menu_reset_vm"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_clear_repl_console"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:orderInCategory="101"
+        android:title="@string/menu_clear_repl_console"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_previous_input"
+        android:icon="@drawable/ic_keyboard_arrow_up_white_24dp"
+        android:orderInCategory="102"
+        android:title="@string/menu_previous_input"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_next_input"
+        android:icon="@drawable/ic_keyboard_arrow_down_white_24dp"
+        android:orderInCategory="103"
+        android:title="@string/menu_next_input"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_copy_console_content"
+        android:icon="@drawable/ic_content_copy_white_24dp"
+        android:orderInCategory="104"
+        android:title="@string/menu_copy_console_content"
+        app:showAsAction="always" />
+
+</menu>

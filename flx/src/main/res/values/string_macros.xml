@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="desc_case">Returns the evaluated value of **`form`** for the first **`case`** that
+        evaluates to be equal to the **`value`**.</string>
+
+    <string name="desc_def">Creates or locates a variable with the given **`symbol`** name and assigns
+        the given **`value`** for it.</string>
+
+    <string name="desc_fun">Defines a new function with the given **`name`** symbol, **`args`**, which
+        is an `Array` of symbols for function arguments, and function **`body`** form.
+        E.g. **`(fun sum [x y] (+ x y))`**.</string>
+
+    <string name="desc_proc">Defines a new procedure with the given **`args`** array and **`code`**.</string>
+
+    <string name="desc_callback">Creates a new `Callback` with the given **`code`** and optional callback **`parameters`** defined as `Symbols`. The `Symbols` can be referenced as parameters in callbacks\'s code.</string>
+
+    <string name="desc_beanshell">Executes the given Beanshell **`script`** and return the result. Given `Symbols` can be used to pass input values to script, and to receive output values from the script execution.</string>
+
+    <string name="desc_fn">Defines a new anonymous function with the given **`name`** symbol, **`parameters`**
+        array and **`body`**. E.g. **`(fun [x y] (+ x y))`**.</string>
+
+    <string name="desc_code">Creates an instance of `Code` object. Code is a code block that contains zero or
+        more forms. Each given **`form`** is executed one by one in the given order. Returns the evaluated
+        value of the last executed **`form`**.</string>
+
+    <string name="desc_do">Executes each **`form`** one by one in the given order. Returns the evaluated
+        value of the last executed **`form`**.</string>
+
+    <string name="desc_for">Implements a for loop which executes the **`form`** for **`n`** times.
+        Argument **`n`** has to evaluate to a `Number`.</string>
+
+    <string name="desc_repeat">Executes the given **`form`** for **`n`** times. Argument **`n`** has
+        to evaluate to a `Number`.</string>
+
+    <string name="desc_for_each">Iterates over the elements in the **`sequence`** and on each iteration
+        assigns the next element to the **`symbol`** before evaluating **`form`**.</string>
+
+    <string name="desc_help">Shows help for the function with the name specified by the given **`symbol`**.</string>
+
+    <string name="desc_if">If the **`condition`** evaluates to `true` then **`thenForm`** is executed,
+        otherwise **`elseForm`**.</string>
+
+    <string name="desc_let">Performs the value assignments defined in **`bindings`** and executes each
+        **`form`** one by one. E.g. **`(let [x 1 y 2] (+ x y)  (* x y)`**. The value of the last
+    executed form is returned.</string>
+
+    <string name="desc_map">Returns a `List` consisting of the results of applying the given **`function`**
+        to set of nth items (0, 1, , … N) of each **`collection``*.</string>
+
+    <string name="desc_quote">Returns the given **`form`** without evaluating it.</string>
+
+    <string name="desc_lazy">Returns the given **`form`** without evaluating it. A lazy form can be evaluated later on with `(eval form)` function.</string>
+
+    <string name="desc_val">Creates an immutable variable with the given **`symbol`** name and assigns
+        the given **`value`** for it.</string>
+
+    <string name="desc_var">Creates an mutable variable with the given **`symbol`** name and assigns
+        the optional **`value?`** for it.</string>
+
+    <string name="desc_when">Returns the evaluated value of **`form`** for the first **`condition`**
+        that evaluates to `true`.</string>
+
+    <string name="desc_switch">Returns the evaluation result of the **`form`** for which the **`case`**
+        value equals to the given switch **`value`**. In case no equal case value exists, the evaluated
+        value of `else` form is returned.</string>
+
+    <string name="desc_while">Implements a while loop. First, the **`condition`** expression is evaluated,
+        and if the result is true, then the **`form`** is executed.</string>
+
+    <string name="desc_decrease">Decreases the number value of **`variable`** by 1</string>
+
+    <string name="desc_increase">Increases the number value of **`variable`** by 1</string>
+
+</resources>

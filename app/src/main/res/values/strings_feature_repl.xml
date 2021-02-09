@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dialog_title_execution_failed">Execution failed</string>
+
+    <string name="title_toolbar_repl">FLX REPL</string>
+    <string name="title_bottom_sheet_log">Log</string>
+    <string name="title_bottom_sheet_run">Run</string>
+
+    <string name="action_close">Close</string>
+    <string name="action_clear_log">Clear log</string>
+    <string name="action_copy_to_clipboard">To clipboard</string>
+    <string name="action_rerun">Rerun</string>
+    <string name="action_clear_console">Clear console</string>
+    <string name="action_pause_resume_execution">Pause or resume execution</string>
+    <string name="action_stop_execution">Stop execution</string>
+
+    <string name="menu_start_execution">Start execution</string>
+    <string name="menu_stop_execution">Stop execution</string>
+    <string name="menu_pause_execution">Pause execution</string>
+    <string name="menu_restart_execution">Restart execution</string>
+    <string name="menu_clear_console">Clear console</string>
+
+    <string name="menu_reset_vm">Reset VM</string>
+    <string name="menu_clear_repl_console">Clear console</string>
+    <string name="menu_previous_input">Previous input</string>
+    <string name="menu_next_input">Next input</string>
+    <string name="menu_copy_console_content">Copy console content</string>
+
+    <string name="text_execution_paused">Execution paused.</string>
+    <string name="text_execution_resumed">Execution resumed.</string>
+    <string name="text_execution_started">Execution started.</string>
+    <string name="text_execution_stopped">Execution stopped.</string>
+    <string name="text_ready">Ready.</string>
+    <string name="text_exceptions">Exceptions: </string>
+    <string name="text_errors">Errors: </string>
+    <string name="text_warnings">Warnings: </string>
+    <string name="text_no_actions_available">No actions available</string>
+
+</resources>

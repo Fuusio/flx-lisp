@@ -1,0 +1,69 @@
+<resources>
+
+    <style name="Theme.Flx" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.Flx">
+        <item name="colorControlNormal">@color/red</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="DarkAppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="DarkAppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="FlxApp.TextAppearance.DialogTitle" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/dialog_title</item>
+        <item name="android:textColor">@color/dialogTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FlxApp.TextAppearance.DialogLabel" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textColor">@color/dialogLabel</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+    <style name="Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="rippleColor">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Alert.Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="rippleColor">@color/secondaryColor</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Label" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/labelColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Error" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Hint" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/primaryLightColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

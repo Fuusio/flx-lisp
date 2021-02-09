@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_toolbar_about">About</string>
+    <string name="about_title">FLX REPL</string>
+    <string name="label_version">Version</string>
+    <string name="label_os_libraries">OS Libraries:</string>
+    <string name="label_copyright">Copyright</string>
+    <string name="text_copyright">\u00A9 Marko Salmela 2020 - 2021</string>
+    <string name="text_send_email">Send email …</string>
+
+    <string name="action_goto_website">Goto website</string>
+    <string name="action_send_feedback">Send feedback</string>
+
+
+</resources>

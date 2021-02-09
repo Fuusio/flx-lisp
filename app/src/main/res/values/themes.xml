@@ -1,0 +1,162 @@
+<resources>
+
+    <style name="Theme.Flx" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+        <!-- item name="android:windowLightNavigationBar">true</item -->
+        <item name="circularProgressIndicatorStyle">@style/Widget.App.CircularProgressIndicator</item>
+    </style>
+
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.MaterialComponents.CircularProgressIndicator">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.CircularProgressIndicator</item>
+        <item name="trackThickness">6dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.CircularProgressIndicator" parent="">
+        <item name="colorPrimary">@color/blue_grey_200</item>
+    </style>
+
+    <style name="AppBar" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="android:titleTextColor">@color/titleAndIconColor</item>
+        <item name="android:textColorPrimary">@color/titleAndIconColor</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.MaterialComponents.Toolbar.Primary">
+        <item name="colorOnPrimary">@color/toolbarIconColor</item>
+    </style>
+
+    <style name="DarkAppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar" />
+
+    <style name="DarkAppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents" />
+
+    <style name="FlxApp.TextAppearance.DialogTitle" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/dialog_title</item>
+        <item name="android:textColor">@color/dialogTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FlxApp.TextAppearance.DialogLabel" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textColor">@color/dialogLabel</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="buttonBarPositiveButtonStyle">@style/Alert.Button.Positive</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Alert.Button.Neutral</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Alert.Button.Neutral</item>
+    </style>
+
+    <style name="Alert.Button.Positive" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="rippleColor">@color/titleAndIconColor</item>
+        <item name="android:textColor">@color/titleAndIconColor</item>
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Alert.Button.Neutral" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="rippleColor">@color/titleAndIconColor</item>
+        <item name="android:textColor">@color/titleAndIconColor</item>
+        <item name="android:textSize">@dimen/dialog_label</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Text.Error" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Text.Hint" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Text.Label" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/labelColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FlxApp.TextInputLayoutAppearance" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/labelColor</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="hintTextAppearance">@style/Text.Hint</item>
+        <item name="errorTextAppearance">@style/Text.Error</item>
+        <item name="colorError">@color/red</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorHint">@color/labelColor</item>
+        <item name="colorControlNormal">@color/labelColor</item>
+        <item name="colorControlActivated">@color/labelColor</item>
+        <item name="colorControlHighlight">@color/labelColor</item>
+        <item name="hintTextColor">@color/labelColor</item>
+    </style>
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet_dialog_fragment</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="BottomSheetMenuButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/toolbarIconColor</item>
+        <item name="android:tint">@color/toolbarIconColor</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="iconTint">@color/toolbarIconColor</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="DialogButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/dialog_button_color_selector</item>
+        <item name="android:tint">@color/toolbarIconColor</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="iconTint">@color/toolbarIconColor</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Spinner" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:spinnerItemStyle">
+            @style/spinnerItemStyle
+        </item>
+
+        <item name="android:spinnerDropDownItemStyle">
+            @style/spinnerDropDownItemStyle
+        </item>
+
+    </style>
+
+    <style name="spinnerItemStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/titleAndIconColor</item>
+        <item name="android:background">@color/white_1000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:padding">6sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/titleAndIconColor</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

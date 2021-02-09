@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="desc_class_for_name">Returns the Java `Class` specified by the given fully qualified **`className`**.</string>
+
+    <string name="desc_get_class">Returns the Java `Class` of the given **`object`**.</string>
+
+    <string name="desc_is_instance">Checks if the given **`object`** is an instance of the Java `Class` specified by **`class`** object.</string>
+
+    <string name="desc_log_d">Creates a log entry at debug level with **`message`**.</string>
+    <string name="desc_log_i">Creates a log entry at info level with **`message`**.</string>
+    <string name="desc_log_w">Creates a log entry at warning level with **`message`**.</string>
+    <string name="desc_log_e">Creates a log entry at error level with **`message`**.</string>
+
+    <string name="desc_addition">Addition of the given **`number`** arguments.</string>
+
+    <string name="desc_percentage">Calculates the proportionate part of the given **`total`** numeric value specified by the given **`percentage`**.</string>
+
+    <string name="desc_division">Division of the given **`number`** arguments.</string>
+
+    <string name="desc_assign">Assigns the given **`value`** to a **`variable`**.</string>
+
+    <string name="desc_max">Return the maximum **`number`** among the given **`number`** arguments.</string>
+
+    <string name="desc_min">Return the minimum **`number`** among the given **`number`** arguments.</string>
+
+    <string name="desc_multiplication">Multiplication of the given **`number`** arguments.</string>
+
+    <string name="desc_subtraction">Subtraction of the given **`number`** arguments.</string>
+
+    <string name="desc_equals">Tests if all the given **`form`** arguments are equal.</string>
+
+    <string name="desc_greater_than">Returns `true` if  **`number`** values are in monotonically decreasing order, otherwise `false`.</string>
+
+    <string name="desc_rem">Remainder of dividing the first **`number`** by the **`divider`**.</string>
+
+    <string name="desc_greater_than_or_equal">Returns `true` if **`number`** values are in monotonically non-increasing order, otherwise `false`.</string>
+
+    <string name="desc_lesser_than">Returns `true` if  **`number`** values are in monotonically increasing order, otherwise `false`.</string>
+
+    <string name="desc_invoke">Invokes the specified **`method`** for the given **`object`** with the optional **`param`** arguments.</string>
+
+    <string name="desc_get_property">Get the specified **`property`** value from the given **`object`**.</string>
+
+    <string name="desc_set_property">Set the specified **`property`** of the given **`object`** to given **`value`**.</string>
+
+    <string name="desc_new">Creates a new instance of the specified **`class`** with the optional **`param`** arguments for constructor.</string>
+
+    <string name="desc_lesser_than_or_equal">Returns `true` if **`number`** values are in monotonically non-decreasing order, otherwise `false`.</string>
+
+    <string name="desc_equal">Tests if all the given **`number`** values are equal.</string>
+
+    <string name="desc_abs">Returns absolute value of number **`x`**.</string>
+
+    <string name="desc_acos">Returns the acos of **`x`**.</string>
+
+    <string name="desc_asin">Returns the asin of **`x`**.</string>
+
+    <string name="desc_atan">Returns the atan of **`x`**.</string>
+
+    <string name="desc_ceil">Returns the least integer greater than or equal to **`x`**.</string>
+
+    <string name="desc_compare">Returns a negative number, zero, or a positive number when **`string1`** is logically (less than), (equal to), or (greater than) **`string2`**.</string>
+
+    <string name="desc_color">Returns a `Color` defined by given **`red`**, **`green`**, **`blue`** and optional **`alpha`** component values. Each component value has to be in range 0..255.</string>
+
+    <string name="desc_cos">Returns the cos of **`x`**.</string>
+
+    <string name="desc_dec">Returns a value that is **`number`** decreased by 1 </string>
+
+    <string name="desc_inc">Returns a value that is **`number`** increased by 1 </string>
+
+    <string name="desc_identical">Tests if **`form1`** and **`form2`** are the same object.</string>
+
+    <string name="desc_exp">Computes Euler\'s number **e** raised to the power of the value **`x`**.</string>
+
+    <string name="desc_floor">Returns the next lowest integer value (i.e. last largest integer not
+        greater than the **`x`** value) by rounding up value if necessary.</string>
+
+    <string name="desc_eval">Evaluates the given **`form`** and returns the evaluated value.</string>
+
+    <string name="desc_eval_string">Evaluates the given **`string`**. The **`string`** is first
+        parsed to a form which is then evaluated.</string>
+
+    <string name="desc_pow">Raises **`x`** value to the power **`y`**.</string>
+
+    <string name="desc_parse_boolean">Parses the given **`string`** to a `Boolean` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_parse_byte">Parses the given **`string`** to a `Byte` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_parse_double">Parses the given **`string`** to a `Double` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_parse_float">Parses the given **`string`** to a `Float` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_parse_int">Parses the given **`string`** to a `Int` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_parse_long">Parses the given **`string`** to a `Long` value. Returns `null` if
+        parsing fails.</string>
+
+    <string name="desc_round">Rounds the given value **`x`** towards the closest integer with ties
+        rounded towards even integer.</string>
+
+    <string name="desc_sin">Returns the sin of **`x`**.</string>
+
+    <string name="desc_sqrt">Returns the square root of **`x`**.</string>
+
+    <string name="desc_array">Test if the given **`form`** is an `Array`.</string>
+
+    <string name="desc_blank">Returns true if the given **`string`** is empty or consists solely of
+        whitespace characters.</string>
+
+    <string name="desc_conj_0">Returns a new `List` by adding the given **`item`** to the given
+        **`collection`** which is `List`or `Array`.</string>
+    <string name="desc_conj_1">Returns a new `Set` by adding the given **`item`** to the given
+        **`set`**.</string>
+
+    <string name="desc_cons_0">Returns a new `List` where **`item`** is the first element and the
+        given **`sequence`** is the rest.</string>
+    <string name="desc_cons_1">Returns a new `List` where **`item`** is the first element and the
+        given **`string`** is the rest.</string>
+    <string name="desc_cons_2">Returns a new `List` where **`item`** is the first element and the
+        given **`set`** is the rest.</string>
+
+    <string name="desc_drop">Returns a new `String` of all but the first **`n`** items in the given
+        **`string`**.</string>
+
+    <string name="desc_drop_last">Returns a new `String` of all but the last **`n`** items in the given
+        **`string`**.</string>
+
+    <string name="desc_split_lines">Splits the given **`string`** to an `Array` of substrings based
+        on line break characters.</string>
+
+    <string name="desc_is_empty_0">Returns true if the given **`collection`** is empty.</string>
+    <string name="desc_is_empty_1">Returns true if the given **`string`** is empty (contains no characters).</string>
+
+    <string name="desc_is_not_empty_0">Returns true if the given **`collection`** is not empty.</string>
+    <string name="desc_is_not_empty_1">Returns true if the given **`string`** is not empty (contains no characters).</string>
+
+    <string name="desc_size_0">Returns the size of the given **`collection`**.</string>
+    <string name="desc_size_1">Returns the size of the given **`string`**.</string>
+
+    <string name="desc_ends_with">Tests if the **`string`** ends with the specified **`postfix`**.</string>
+
+    <string name="desc_starts_with">Tests if the **`string`** starts with the specified **`prefix`**.</string>
+
+    <string name="desc_bit_and">Performs a bitwise *and* comparison of corresponding bits of two or
+        more **`int`** values.</string>
+
+    <string name="desc_bit_not">Inverts the bits of the given **`int`** value.</string>
+
+    <string name="desc_bit_or">Performs a bitwise *or* comparison of corresponding bits of two or more **`int`** values</string>
+
+    <string name="desc_shl">Shifts the bit pattern of the given **`int`** to the left by **`n`** number of specified bits,
+        and zero bits are shifted into the low-order positions.</string>
+
+    <string name="desc_shr">Shifts the bit pattern of the given **`int`** to the right by **`n`** number of specified bits.</string>
+
+    <string name="desc_bit_xor">Performs a bitwise *xor* comparison of corresponding bits of two or more **`int`** values.</string>
+
+    <string name="desc_filter_0">Returns a `List` containing the items from the given **`collection`**
+    for which the **`predicate`** function evaluates to *logical true* (i.e. `true` or not `null`.</string>
+    <string name="desc_filter_1">Returns a `List` containing the items from the given **`set`**
+    for which the **`predicate`** function evaluates to *logical true* (i.e. `true` or not `null`.</string>
+
+    <string name="desc_boolean">Tests if the given **`form`** is a `Boolean`.</string>
+
+    <string name="desc_byte">Tests if the given **`form`** is a `Byte`.</string>
+
+    <string name="desc_first_0">Returns the first item in the given **`sequence`** which may not be empty.</string>
+    <string name="desc_first_1">Returns the first character int the given **`string`** which may not be empty.</string>
+
+    <string name="desc_not">Returns `false` if the given **`form`** evaluates to *logical true*, otherwise `true`.</string>
+
+    <string name="desc_last_0">Returns the last item in the given **`sequence`** which may not be empty.</string>
+
+    <string name="desc_last_1">Returns the last item in the given **`string`** which may not be empty.</string>
+
+    <string name="desc_format">Formats the string evaluated from **`form`** using the given
+        **`formatArgs`**. Eg. `(format \"Hello %1s\" \"World!\")`.</string>
+
+    <string name="desc_print">Prints the given **`form`** to system output as literal. Given
+        **`formatArgs`** are applied as formatting args if the **`form`** evaluates to a format string.</string>
+
+    <string name="desc_println">Prints the given **`form`** to system output as literal with a new line.
+        Given **`formatArgs`** are applied as formatting args if the **`form`** evaluates to a format string.</string>
+
+    <string name="desc_rest_0">Returns a copy of the given **`sequence`** that does not contain the
+    first item of it.</string>
+    <string name="desc_rest_1">Returns a copy of the given **`string`** that does not contain the
+    first character of it.</string>
+
+    <string name="desc_replace_char">Replaces all the occurrences of the given **`oldChar`** with
+        **`newChar`** in the given **`string`**.</string>
+
+    <string name="desc_replace_first_re_0">Replaces the first occurrence of the substring matching
+        the specified regular expression with the **`replacement`** in the given **`string`**. The
+    regular expression is defined by the given **`regex`** given as a `Regex`.</string>
+    <string name="desc_replace_first_re_1">Replaces the first occurrence of the substring matching
+        the specified regular expression with the **`replacement`** in the given **`string`**. The
+    regular expression is defined by the given **`regex`** given as a `String`.</string>
+
+    <string name="desc_replace_first_str">Replaces the first occurrence of the specified **`substring`**
+    in the **`string`** with the given **`replacement`**.</string>
+
+    <string name="desc_replace_re_0">Replaces all the occurrences of the substring matching
+        the specified regular expression with the **`replacement`** in the given **`string`**. The
+    regular expression is defined by the given **`regex`** given as a `Regex`.</string>
+    <string name="desc_replace_re_1">Replaces all the occurrences of the substring matching
+        the specified regular expression with the **`replacement`** in the given **`string`**. The
+    regular expression is defined by the given **`regex`** given as a `String`.</string>
+
+    <string name="desc_replace_str">Replaces all the occurrences of the specified **`substring`**
+    in the **`string`** with the given **`replacement`**.</string>
+
+    <string name="desc_split_0">Splits the given **`string`** around matches of the given regular
+        expression defined by the `Regex` based **`regex`** argument. Resulting substrings are
+    returned as an `Array`.</string>
+    <string name="desc_split_1">Splits the given **`string`** around matches of the given regular
+        expression defined by the `String` based **`regex`** argument. Resulting substrings are
+    returned as an `Array`.</string>
+    <string name="desc_split_2">Splits the given **`string`** around matches of the given regular
+        expression defined by the `Regex` based **`regex`** argument. Resulting substrings are
+    returned as an `Array`. Argument **`limit`** specifies the maximum number of substrings returned.</string>
+    <string name="desc_split_3">Splits the given **`string`** around matches of the given regular
+        expression defined by the `String` based **`regex`** argument. Resulting substrings are
+    returned as an `Array`. Argument **`limit`** specifies the maximum number of substrings returned.</string>
+
+    <string name="desc_matches_0">Return `true` if the given regular expression matches the given
+    **`string`**, otherwise **`false`**. The regular expression is defined as a `Regex`.</string>
+    <string name="desc_matches_1">Return `true` if the given regular expression matches the given
+    **`string`**, otherwise **`false`**. The regular expression is defined as a `String`.</string>
+
+    <string name="desc_is_negative">Tests if the given **`number`** is negative.</string>
+
+    <string name="desc_log">Computes the logarithm of the value **`x`** to the given **`base`**.</string>
+
+
+    <string name="desc_json_get_0">Gets the property with **`key`** from the given **`json`** object. Value `null` is
+        returned if property with **`key`** is not found. Use forward slash separated keys to define a path
+    for nested properties e.g. \"employees/developers/Mike\"</string>
+    <string name="desc_json_get_1">Gets the property with **`key`** from the given **`json`** object. The given **`fallback`**
+        is returned if property with **`key`** is not found. Use forward slash separated keys to define a path
+    for nested properties e.g. \"employees/developers/Mike\"</string>
+
+    <string name="desc_get_0">Gets the property with **`key`** from a **`json`**. Value `null` is
+        returned if property with **`key`** is not found. Use forward slash separated keys to define a path
+    for nested properties e.g. \"employees/developers/Mike\"</string>
+    <string name="desc_get_1">Gets the property with **`key`** from a **`json`**. The given **`fallback`**
+        is returned if property with **`key`** is not found. Use forward slash separated keys to define a path
+    for nested properties e.g. \"employees/developers/Mike\"</string>
+    <string name="desc_get_2">Gets the property with **`key`** from a **`map`**. Value `null` is
+        returned if property with **`key`** is not found.</string>
+    <string name="desc_get_3">Gets the property with **`key`** from a **`map`**. The given **`fallback`**
+        is returned if property with **`key`** is not found.</string>
+
+    <string name="desc_index_of">Gets the index of the specified **`substring`** in the given
+        **`string`**. Searching starts from the specified start **`index`**. Returns `-1` if the
+        **`substring`** is not found.</string>
+
+    <string name="desc_is_double">Tests if the given **`form`** is instance of `Double`.</string>
+
+    <string name="desc_is_even">Tests if the given **`integer`** is even.</string>
+
+    <string name="desc_is_odd">Tests if the given **`integer`** is odd.</string>
+
+    <string name="desc_is_positive">Tests if the given **`number`** is positive.</string>
+
+    <string name="desc_sign">Returns the sign of the given value **`x`**: `-1` if the value is
+        negative, `0` if the value is zero, and `1`if the value is positive.</string>
+
+    <string name="desc_parse_string">Parses a form from the given **`string`**.</string>
+
+    <string name="desc_parse_eval_string">Parses the **`literal`** `String` to a form and evaluates the form.</string>
+
+    <string name="desc_compile">Returns a `ParsedForm` which parses given the **`literal`** `String` and caches the resulting form.
+        Whenever the `ParsedForm` is evaluated it does not need to parse the literal, but evaluates the cached form instead.</string>
+
+    <string name="desc_str">Converts the given **`form`** values to `String` values and concatenates
+        them to a single `String`.</string>
+
+    <string name="desc_concatenate">Converts the given **`form`** values to `String` values and concatenates
+        them to a single `String`.</string>
+
+    <string name="desc_tail">Returns a copy of the given **`string`** that contains the last **`n`**
+        characters of it.</string>
+
+    <string name="desc_is_set">Tests if the given **`form`** is instance of `Set`.</string>
+
+    <string name="desc_is_string">Tests if the given **`form`** is instance of `String`.</string>
+
+    <string name="desc_observer__subscribe">Subscribes the given **`observer`** `Callback` to receive callback invocations
+        from the given **`observable`**. Returns a `Subscription` which can be used for cancelling the subscription.</string>
+
+    <string name="desc_subscription__unsubscribe">Unsubscribes the given **`subscription`**. Returns the `Observable`
+        which originally created the **`subscription`** object.</string>
+
+    <string name="desc_timer_observable">Creates and returns a `TimerObservable` with the given expiration
+        **`period`** (in milliseconds) parameters.
+        `TimerObservable` is a single shot timer which, when expired, invokes the subscribed observer function or procedure
+        having a signature `(timeNow:Long)`. The timer needs to be started using function `(subscription .start))`.
+        Other observing control functions are: `(subscription .pause))`, `(subscription .resumne))`, and
+        `(subscription .stop))`. The last function also unsubscribes the observer from observing
+    the `TimerObservable`.</string>
+
+    <string name="desc_periodic_timer_observable">Creates and returns a `PeriodicTimerObservable` with the given
+        **`initialDelay`** (in milliseconds) and update **`period`** (in milliseconds) parameters.
+        `TimeObservable` starts periodically invoking the subscribed observer function or procedure
+        having a signature `(timeNow:Long timeSinceStart:Long)` once the subscription to it
+        activated using function `(subscription .start)`. Other observing control
+        functions are: `(subscription .pause)`, `(subscription .resume)`, and
+        `(subscription .stop)`. The last function also unsubscribes the observer from observing
+    the `PeriodicTimerObservable`.</string>
+
+    <string name="desc_subscription__start">Start observing the `Observable` specified in the given
+        **`subscription`**.</string>
+
+    <string name="desc_subscription__pause">Pauses observing the `Observable` specified in the given
+        **`subscription`**.</string>
+
+    <string name="desc_subscription__resume">Resumes observing the `Observable` specified in the given
+        **`subscription`**.</string>
+
+    <string name="desc_subscription__stop">Stops observing the `Observable` specified in the given
+        **`subscription`**. The observer is also unsubscibed from the `Observable`.</string>
+
+    <string name="desc_subarray_0">Returns the subarray of **`array`** beginning at **`start`**
+        inclusive, and ending at the length of array, exclusive.</string>
+    <string name="desc_subarray_1">Returns the subarray of **`array`** beginning at **`start`**
+        inclusive, and ending at **`end`**, exclusive.</string>
+
+    <string name="desc_substring_0">Returns the substring of **`string`** beginning at **`start`**
+        inclusive, and ending at the length of string), exclusive.</string>
+    <string name="desc_substring_1">Returns the substring of **`string`** beginning at **`start`**
+        inclusive, and ending at **`end`** (defaults to length of string), exclusive.</string>
+
+    <string name="desc_contains_0">Returns `true` if the given **`string`** contains the specified
+        **`substring`**, otherwise `false`.</string>
+    <string name="desc_contains_1">Returns `true` if the given **`string`** contains the specified
+        **`substring`**, otherwise `false`. Argument **`caseIsIgnored`** specifies whether matching is
+    case insensitive (`true`) or sensitive (`false`).</string>
+
+    <string name="desc_is_symbol">Tests if the given **`form`** is instance of `Symbol`.</string>
+
+    <string name="desc_repeat_string">Repeat the **`string`** for **`n`** times.</string>
+
+    <string name="desc_rand">Gives a rand double number between 0.0 – 1.0</string>
+
+    <string name="desc_date">Gives the current date.</string>
+
+    <string name="desc_date_year">Returns the year represented by the given **`date`**.</string>
+
+    <string name="desc_date_month">Returns the month represented by the given **`date`**.</string>
+
+    <string name="desc_date_day_of_month">Returns the day of month represented by the given **`date`**.</string>
+
+    <string name="desc_date_hours">Returns the hour represented by the given **`date`**.</string>
+
+    <string name="desc_date_minutes">Returns the number of minutes past the current hour represented by the given **`date`**.</string>
+
+    <string name="desc_date_seconds">Returns the number of seconds past the current minute represented by the given **`date`**.</string>
+
+    <string name="desc_date_milliseconds">Returns the number of milliseconds past the current second represented by the given **`date`**.</string>
+
+    <string name="desc_epoch_time">The epoch time as milliseconds.</string>
+
+    <string name="desc_is_long">Test if the given **`form`** is instance of `Long`.</string>
+
+    <string name="desc_nth">Returns the item at the location specified by **`index`** in the given
+    **`string`**.</string>
+
+    <string name="desc_char_at">Returns the `Char` at the location specified by **`index`** in the given
+    **`string`**.</string>
+
+    <string name="desc_not_equals">Returns `true` if the given **`form`** arguments do not equal with each other, otherwise `false`.</string>
+
+    <string name="desc_is_list">Tests if the given **`form`** is instance of `List`.</string>
+
+    <string name="desc_is_json_array">Tests if the given **`form`** is instance of `JsonArray`.</string>
+
+    <string name="desc_is_json_element">Tests if the given **`form`** is instance of `JsonElement`.</string>
+
+    <string name="desc_is_json_object">Tests f the given **`form`** is instance of `JsonObject`.</string>
+
+    <string name="desc_is_json_primitive">Tests if the given **`form`** is instance of `JSonPrimitive`.</string>
+
+    <string name="desc_is_map">Tests if the given **`form`** is instance of `Map`</string>
+
+    <string name="desc_is_false">Tests if the given **`form`** is *logical false* (i.e. `false` or
+        `null`).</string>
+
+    <string name="desc_is_null">Tests if the given **`form`** is `null`.</string>
+
+    <string name="desc_butlast"> Returns a copy of the given **`string`** without the last **`n`**
+        characters. Returns an empty `String` if **`n`** is greater than the length of **`string`**.</string>
+
+    <string name="desc_capitalize">Returns a copy of the given **`string`** having its first letter
+        upper cased, or the original **`string`**, if it is empty or already starts with an upper case letter.</string>
+
+    <string name="desc_chop">Creates a copy of the given **`string`** where the last character
+        of it is removed.</string>
+
+    <string name="desc_reverse">Reverses the characters in the given **`string`**.</string>
+
+    <string name="desc_lower_case">Creates a copy of the given **`string`** where all the characters
+        of it are lower cased.</string>
+
+    <string name="desc_take">Returns a sub sequence of the given **`string`** containing only max
+    **`n`** first characters of the original `String`.</string>
+
+    <string name="desc_tan">Returns the tan of the given **`x`**.</string>
+
+    <string name="desc_to_boolean">Converts the given **`form`** to `Boolean`.</string>
+
+    <string name="desc_to_byte_0">Converts a **`number`** to **`Byte`**.</string>
+    <string name="desc_to_byte_1">Converts a **`string`** to **`Byte`**.</string>
+    <string name="desc_to_byte_2">Converts a **`jsonPrimitive`** to **`Byte`**.</string>
+
+    <string name="desc_to_char_0">Converts a **`form`** to `Char`.</string>
+    <string name="desc_to_char_1">Converts a **`jsonPrimitive`** to `Char`.</string>
+
+    <string name="desc_to_double_0">Converts a **`number`** to `Double`.</string>
+    <string name="desc_to_double_1">Converts a **`string`** to `Double`.</string>
+    <string name="desc_to_double_2">Converts a **`jsonPrimitive`** to `Double`.</string>
+
+    <string name="desc_to_float_0">Converts a **`number`** to `Float`.</string>
+    <string name="desc_to_float_1">Converts a **`string`** to `Float`.</string>
+    <string name="desc_to_float_2">Converts a **`jsonPrimitive`** to `Float`.</string>
+
+    <string name="desc_to_int_0">Converts a **`number`** to `Int`. </string>
+    <string name="desc_to_int_1">Converts a **`string`** to `Int`. </string>
+    <string name="desc_to_int_2">Converts a **`jsonPrimitive`** to `Int`. </string>
+
+    <string name="desc_to_json_0">Converts a **`string`** **`JsonObject`**. </string>
+    <string name="desc_to_json_1">Converts a **`map`** to **`JsonObject`**. </string>
+
+    <string name="desc_to_array">Converts the given **`form`** to `Array`.</string>
+
+    <string name="desc_to_list">Converts the given **`form`** to `List`.</string>
+
+    <string name="desc_to_map">Converts the given **`json`** to `Map`.</string>
+
+    <string name="desc_to_set">Converts the given **`form`** to `Set`.</string>
+
+    <string name="desc_to_long_0">Converts a **`number`** to `Long`.</string>
+    <string name="desc_to_long_1">Converts a **`string`** to `Long`.</string>
+    <string name="desc_to_long_2">Converts a **`jsonPrimitive`** to `Long`.</string>
+
+    <string name="desc_to_number_0">Converts a **`number`** to `Number`.</string>
+    <string name="desc_to_number_1">Converts a **`string`** to `Number`.</string>
+    <string name="desc_to_number_2">Converts a **`jsonPrimitive`** to `Number`.</string>
+
+    <string name="desc_to_short_0">Converts a **`number`** to `Short`.</string>
+    <string name="desc_to_short_1">Converts a **`string`** to `Short`.</string>
+    <string name="desc_to_short_2">Converts a **`jsonPrimitive`** to `Short`.</string>
+
+    <string name="desc_to_string">Converts the given **`form`** to a `String` representation.</string>
+
+    <string name="desc_trim">Returns a sub sequence of the given **`string`** having leading and
+        trailing white space characters removed.</string>
+
+    <string name="desc_trimStart">Returns a sub sequence of the given **`string`** having leading white
+        space characters removed.</string>
+
+    <string name="desc_trimEnd">Returns a sub sequence of the given **`string`** having trailing white
+        space characters removed.</string>
+
+    <string name="desc_is_true">Tests if the given **`form`** evaluates to *logical true* (i.e. `true`
+        or not `null`).</string>
+
+    <string name="desc_upper_case">Creates a copy of the given **`string`** where all the characters
+        of it are upper cased.</string>
+
+    <string name="desc_is_zero">Tests if the given **`number`** is zero.</string>
+
+    <string name="desc_and">Evaluates **`form`** arguments one by one, from left to
+        right. If a **`form`** evaluates to *logical false* (i.e. `false` or `null`) then `false`
+        is returned and remaining **`form`** arguments are not evaluated, otherwise `true` is
+        returned. If no **`form`** arguments are given, returns `true`.</string>
+
+    <string name="desc_or">Evaluates all the given **`form`** arguments one by one, from left to
+        right. If a **`form`** evaluates to *logical true* value (i.e. `true` or not `null`),
+        returns `true` and remaining **`form`** arguments are not evaluated.  If no **`form`**
+        evaluates to logical true, returns a `false`. If no **`form`** arguments are given, returns
+        `false`"</string>
+
+    <string name="desc_xor">Evaluates **`form`** arguments one by one, from left to
+        right.  If only one **`form`** evaluates to *logical true* (i.e. `true` or not `null`) value,
+        returns `true`.  If more than one **`form`** or none of them evaluates to logical true
+        returns `false`. If no **`form`** arguments are given, returns `false`.</string>
+
+</resources>

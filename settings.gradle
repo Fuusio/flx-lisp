@@ -1,0 +1,5 @@
+include ':syntax-java'
+include ':syntax-json'
+include ':syntax-core'
+include ':app', ':flx'
+rootProject.name='Hilla'

@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="empty" />
+
+    <string name="app_name">FLX REPL</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FLX REPL</string>
+    <string name="nav_header_subtitle">com.floxp</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_repl">FLX REPL</string>
+    <string name="menu_about">About</string>
+    <string name="menu_eula">EULA</string>
+
+    <string name="action_create">Create</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_save">Save</string>
+    <string name="action_discard">Discard</string>
+
+    <string name="title_confirm">Confirm</string>
+    <string name="title_feature_disabled">Feature disabled</string>
+
+
+</resources>

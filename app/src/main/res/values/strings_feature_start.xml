@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_get_started_with">Get started with FLX User Guide?</string>
+    <string name="text_title_fxp">FLX REPL</string>
+    <string name="text_flx_user_guide">FLX User Guide?</string>
+
+    <string name="action_get_started">Get started</string>
+    <string name="action_okay">Okay</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_accept_eula">Accept</string>
+    <string name="action_decline_eula">Decline</string>
+
+</resources>

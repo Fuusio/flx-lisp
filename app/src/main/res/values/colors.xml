@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#eeeeee</color>
+    <color name="primaryLightColor">#ffffff</color>
+    <color name="primaryDarkColor">#bcbcbc</color>
+
+    <color name="secondaryColor">@color/hilla_dark</color>
+    <color name="secondaryLightColor">@color/hilla_light</color>
+    <color name="secondaryDarkColor">@color/hilla_dark</color>
+
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="colorDivider">#60000000</color>
+
+    <color name="dialogTitle">#eeeeee</color>
+    <color name="dialogLabel">#bdbdbd</color>
+
+    <color name="labelColor">@color/blue_grey_600</color>
+
+    <color name="titleAndIconColor">@color/labelColor</color>
+
+    <color name="navigationIcon">@color/titleAndIconColor</color>
+
+    <color name="toolbarTitleColor">@color/titleAndIconColor</color>
+
+    <color name="toolbarIconColor">@color/titleAndIconColor</color>
+
+    <color name="top_level_list_item_color">@color/white_1000</color>
+
+    <color name="error">@color/red_800</color>
+
+</resources>

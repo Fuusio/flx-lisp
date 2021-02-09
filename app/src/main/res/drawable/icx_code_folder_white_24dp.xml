@@ -1,0 +1,12 @@
+<!-- drawable/folder_outline.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#ffffff" android:pathData="
+    M20,18H4V8H20M20,6H12
+    L10,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V8C22,6.89 21.1,6 20,6Z
+    M11.54 14.15 L13.63 16.24 L12.35 17.5 L9 14.15 L12.35 10.8 L13.63 12.06 L11.54 14.15
+    M19 14.15 L15.65 17.5 L14.38 16.24 L16.47 14.15 L14.38 12.06 L15.65 10.8 L19 14.15Z" />
+</vector>

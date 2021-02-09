@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <ImageButton
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:tint="@color/toolbarIconColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close_white_24dp"
+        android:contentDescription="@string/action_close" />
+
+    <ImageButton
+        android:id="@+id/button_pause_resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/action_pause_resume_execution"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toStartOf="@+id/button_stop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_pause_white_24dp"
+        app:tint="@color/toolbarIconColor" />
+
+    <ImageButton
+        android:id="@+id/button_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/action_stop_execution"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toStartOf="@+id/button_rerun"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_stop_white_24dp"
+        app:tint="@color/toolbarIconColor" />
+
+    <ImageButton
+        android:id="@+id/button_rerun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/action_rerun"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toStartOf="@+id/button_clear_console"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_replay_white_24dp"
+        app:tint="@color/toolbarIconColor" />
+
+    <ImageButton
+        android:id="@+id/button_clear_console"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/action_clear_console"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toStartOf="@+id/button_copy_to_clipboard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_delete_white_24dp"
+        app:tint="@color/toolbarIconColor" />
+
+    <ImageButton
+        android:id="@+id/button_copy_to_clipboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/action_copy_to_clipboard"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_content_copy_white_24dp"
+        app:tint="@color/toolbarIconColor" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view_console"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="@color/blue_grey_900"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_copy_to_clipboard">
+
+        <TextView
+            android:id="@+id/text_view_result_console"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_grey_900"
+            android:scrollbars="vertical"
+            android:padding="8dp"
+            android:textColor="@color/green"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold" />
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18sp"
+        android:text="@string/title_bottom_sheet_run"
+        android:textColor="@color/toolbarTitleColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/button_close"
+        app:layout_constraintStart_toEndOf="@+id/button_close"
+        app:layout_constraintTop_toTopOf="@+id/button_close" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_toolbar_eula">End User License Agreement</string>
+
+    <string name="action_accept">Accept</string>
+    <string name="action_decline">Decline</string>
+
+    <string name="title_exit_application">Exit Application?</string>
+    <string name="text_application_exit">Declining the End User Licence Agreement will cause application to exit.</string>
+
+</resources>
