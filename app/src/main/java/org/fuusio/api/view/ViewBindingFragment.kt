@@ -30,7 +30,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.snackbar.Snackbar
-import com.flx.app.R
+import com.flx.lisp.app.R
 import com.flx.util.TextMarkupFormatter
 import org.koin.core.KoinComponent
 

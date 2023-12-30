@@ -8,7 +8,7 @@
 package com.flx.features.repl
 
 import org.fuusio.api.feature.ViewFeature
-import com.flx.app.R
+import com.flx.lisp.app.R
 import com.flx.features.repl.model.ReplViewModel
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module

@@ -99,7 +99,7 @@ class FlxReplApp : Application() {
                 val  packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)
                 packageInfo.versionName
             } catch (e : Exception) {
-                "1.0.0"
+                "1.0.1"
             }
         }
     }

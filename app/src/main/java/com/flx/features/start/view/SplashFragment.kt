@@ -20,8 +20,8 @@ package com.flx.features.start.view
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.flx.app.R
-import com.flx.app.databinding.SplashFragmentBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.SplashFragmentBinding
 
 class SplashFragment : StartFragment<SplashFragmentBinding>() {
 

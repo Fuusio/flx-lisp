@@ -18,7 +18,7 @@
 package com.flx.features.start
 
 import org.fuusio.api.feature.ViewFeature
-import com.flx.app.R
+import com.flx.lisp.app.R
 import com.flx.features.start.model.SplashViewModel
 import org.koin.android.viewmodel.dsl.viewModel
 import org.koin.dsl.module

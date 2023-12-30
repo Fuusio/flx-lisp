@@ -11,8 +11,8 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import org.fuusio.api.component.BottomSheetCallback
 import org.fuusio.flx.core.util.Literals
-import com.flx.app.R
-import com.flx.app.databinding.BottomSheetActionsBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.BottomSheetActionsBinding
 
 abstract class ActionsBottomSheet(
     fragment: ToolBarFragment<*>,

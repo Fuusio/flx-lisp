@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.View
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.flx.app.R
+import com.flx.lisp.app.R
 
 class ThemedBottomSheetDialog(context: Context) : BottomSheetDialog(context, R.style.BottomSheetDialogTheme) {
 

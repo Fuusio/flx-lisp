@@ -10,8 +10,8 @@ import androidx.appcompat.widget.Toolbar
 import androidx.navigation.fragment.findNavController
 import org.fuusio.api.view.ConfirmationBottomSheet
 import org.fuusio.api.view.ToolBarFragment
-import com.flx.app.R
-import com.flx.app.databinding.EulaFragmentBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.EulaFragmentBinding
 import com.flx.features.eula.model.EulaViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
 import kotlin.math.floor

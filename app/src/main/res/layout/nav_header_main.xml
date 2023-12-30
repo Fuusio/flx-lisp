@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/image_view_logo"
-        android:layout_width="96dp"
-        android:layout_height="96dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_marginStart="24dp"
         android:adjustViewBounds="false"
         android:background="@drawable/bg_logo"

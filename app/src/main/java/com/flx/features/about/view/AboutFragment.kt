@@ -27,8 +27,8 @@ import android.webkit.WebView
 import androidx.appcompat.widget.Toolbar
 import org.fuusio.api.extension.observe
 import org.fuusio.api.view.ToolBarFragment
-import com.flx.app.R
-import com.flx.app.databinding.AboutFragmentBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.AboutFragmentBinding
 import com.flx.features.about.model.AboutViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
 

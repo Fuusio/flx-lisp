@@ -18,7 +18,7 @@ class FormEditText(context: Context, attributeSet: AttributeSet)
     : androidx.appcompat.widget.AppCompatEditText(context, attributeSet) {
 
     override fun onCreateInputConnection(outAttrs: EditorInfo): InputConnection {
-        val inputConnection: InputConnection = super.onCreateInputConnection(outAttrs)
+        val inputConnection: InputConnection = super.onCreateInputConnection(outAttrs)!!
         outAttrs.inputType = TYPE_TEXT_FLAG_NO_SUGGESTIONS or
                 TYPE_TEXT_VARIATION_FILTER or
                 TYPE_CLASS_TEXT or

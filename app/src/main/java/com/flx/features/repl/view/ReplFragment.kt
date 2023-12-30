@@ -28,8 +28,8 @@ import org.fuusio.flx.core.error.FlxException
 import org.fuusio.flx.core.parser.ParserError
 import org.fuusio.flx.core.parser.ParserObserver
 import org.fuusio.flx.core.toLiteral
-import com.flx.app.R
-import com.flx.app.databinding.ReplFragmentBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.ReplFragmentBinding
 import com.flx.features.repl.logic.ExecutionManager
 import org.fuusio.flx.core.vm.*
 import org.koin.core.inject

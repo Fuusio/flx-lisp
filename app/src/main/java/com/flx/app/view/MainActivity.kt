@@ -28,8 +28,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupWithNavController
 import androidx.preference.PreferenceManager
-import com.flx.app.R
-import com.flx.app.databinding.MainWithAdsActivityBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.MainWithAdsActivityBinding
 import com.flx.app.logic.UserInfoManager
 import com.flx.app.model.FlxAppState
 import com.flx.app.model.FlxAppStore

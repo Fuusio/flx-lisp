@@ -5,7 +5,7 @@
     <string name="label_version">Version</string>
     <string name="label_os_libraries">OS Libraries:</string>
     <string name="label_copyright">Copyright</string>
-    <string name="text_copyright">\u00A9 Marko Salmela 2020 - 2021</string>
+    <string name="text_copyright">\u00A9 Marko Salmela 2020 - 2023</string>
     <string name="text_send_email">Send email …</string>
 
     <string name="action_goto_website">Goto website</string>

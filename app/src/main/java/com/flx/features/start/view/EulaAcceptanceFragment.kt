@@ -26,8 +26,8 @@ import android.view.ViewGroup
 import android.webkit.WebView
 import android.widget.Button
 import org.fuusio.api.view.ConfirmationBottomSheet
-import com.flx.app.R
-import com.flx.app.databinding.EulaAcceptanceFragmentBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.EulaAcceptanceFragmentBinding
 import com.flx.app.view.MainActivity
 import com.flx.features.eula.model.EulaViewModel
 import org.koin.android.viewmodel.ext.android.viewModel

@@ -16,7 +16,7 @@ import androidx.viewbinding.ViewBinding
 import com.google.android.material.appbar.MaterialToolbar
 import org.fuusio.api.extension.getColor
 import org.fuusio.api.extension.setColorFilter
-import com.flx.app.R
+import com.flx.lisp.app.R
 
 abstract class ToolBarFragment<T: ViewBinding> : ViewBindingFragment<T>() {
 
@@ -57,7 +57,7 @@ abstract class ToolBarFragment<T: ViewBinding> : ViewBindingFragment<T>() {
                 item.icon = drawable
 
                 if (item.hasSubMenu()) {
-                    onPrepareOptionsMenu(item.subMenu)
+                    onPrepareOptionsMenu(item.subMenu!!)
                 }
             }
         }
@@ -76,7 +76,7 @@ abstract class ToolBarFragment<T: ViewBinding> : ViewBindingFragment<T>() {
             toolBar.navigationIcon?.setTint(getColor(R.color.navigationIcon))
         }
         getAppCompatActivity().setSupportActionBar(toolBar)
-        sharedElementEnterTransition = TransitionInflater.from(context).inflateTransition(android.R.transition.move)
+        sharedElementEnterTransition = TransitionInflater.from(requireContext()).inflateTransition(android.R.transition.move)
         return root
     }
 
@@ -99,7 +99,7 @@ abstract class ToolBarFragment<T: ViewBinding> : ViewBindingFragment<T>() {
             val menuItem = optionsMenu.findItem(itemId)
             menuItem?. let { item ->
                 item.isEnabled = enabled
-                item.icon.mutate().alpha = if (enabled) 0xff else 0x44
+                item.icon!!.mutate().alpha = if (enabled) 0xff else 0x44
             }
         }
     }

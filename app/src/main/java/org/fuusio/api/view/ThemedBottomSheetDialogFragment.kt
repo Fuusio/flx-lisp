@@ -7,7 +7,7 @@ import android.view.View
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.flx.app.R
+import com.flx.lisp.app.R
 
 class ThemedBottomSheetDialogFragment : BottomSheetDialogFragment() {
 

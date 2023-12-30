@@ -5,8 +5,8 @@ import android.content.DialogInterface
 import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.StringRes
-import com.flx.app.R
-import com.flx.app.databinding.BottomSheetConfirmationBinding
+import com.flx.lisp.app.R
+import com.flx.lisp.app.databinding.BottomSheetConfirmationBinding
 import org.koin.core.KoinComponent
 
 class ConfirmationBottomSheet(

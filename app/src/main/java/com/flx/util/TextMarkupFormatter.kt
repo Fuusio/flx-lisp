@@ -25,7 +25,7 @@ import android.text.Spanned
 import android.text.style.ForegroundColorSpan
 import android.text.style.StyleSpan
 import androidx.annotation.ColorRes
-import com.flx.app.R
+import com.flx.lisp.app.R
 import java.lang.StringBuilder
 
 class TextMarkupFormatter(val context: Context) {

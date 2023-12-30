@@ -22,7 +22,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.rd.PageIndicatorView
-import com.flx.app.databinding.StartActivityBinding
+import com.flx.lisp.app.databinding.StartActivityBinding
 
 class StartActivity : AppCompatActivity() {
 
