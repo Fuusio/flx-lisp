@@ -1,5 +1,10 @@
 # FLX Lisp
 
+This repository is deprecated and no more maintained. 
+
+The new version is available in [FLX Lisp 2](https://github.com/Fuusio/flx-lisp-2)
+-------------
+
 FLX Lisp is simple Lisp implementation written in Kotlin for Android.The Gradle project consists of two modules:
 1. **app**: A REPL that implements a Read-Evel-Print-Loop for FLX Lisp.
 2. **flx**: A library for FLX List implementation.
